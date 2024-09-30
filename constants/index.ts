@@ -1,39 +1,35 @@
+import { link } from "fs";
 import { RxHome, RxPerson, RxDashboard, RxClipboard } from "react-icons/rx";
 
 export const SkillData = [
   {
     name: "Html 5",
-    Image: "/html.png",
+    Image: "/html96px.png",
     width: 80,
     height: 80,
   },
   {
     name: "Css",
-    Image: "/css.png",
+    Image: "/css64.png",
     width: 80,
     height: 80,
   },
+
   {
     name: "JavaScript",
-    Image: "/js.png",
-    width: 65,
-    height: 65,
+    Image: "/js96px.png",
+    width: 80,
+    height: 90,
   },
   {
-    name: "Tailwind Css",
-    Image: "/tailwind.png",
-    width: 80,
+    name: "Node js",
+    Image: "/node-js.png",
+    width: 70,
     height: 80,
   },
   {
-    name: "React",
-    Image: "/react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    name: "Redux",
-    Image: "/redux.png",
+    name: "Bootstrap",
+    Image: "/bootstrap.png",
     width: 80,
     height: 80,
   },
@@ -50,22 +46,35 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
+
   {
-    name: "Framer Motion",
-    Image: "/framer.png",
+    name: "Java",
+    Image: "/java.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Stripe Payment",
-    Image: "/stripe.webp",
+    name: "MySQL",
+    Image: "/sqllogo.png",
     width: 80,
     height: 80,
   },
   {
-    name: "Node js",
-    Image: "/node-js.png",
-    width: 80,
+    name: "PHPMyAdmin",
+    Image: "/phpmyadmin-icon.png",
+    width: 75,
+    height: 80,
+  },
+  {
+    name: "Redux Toolkit",
+    Image: "/redux.png",
+    width: 75,
+    height: 80,
+  },
+  {
+    name: "Redux Toolkit",
+    Image: "/API.png",
+    width: 75,
     height: 80,
   },
   {
@@ -78,38 +87,41 @@ export const SkillData = [
 
 export const Socials = [
   {
-    name: "Discord",
-    src: "/instagram.svg",
+    name: "Github",
+    src: "/githubnext64.png",
+    link: "https://github.com/saurabhsp",
   },
   {
-    name: "Facebook",
-    src: "/facebook.svg",
+    name: "Linkedin",
+    src: "/linkedin64.png",
+    link: "https://www.linkedin.com/in/saurabhsmp/",
   },
   {
-    name: "Instagram",
-    src: "/discord.svg",
+    name: "Resume",
+    src: "/resume64.png",
+    link: "https://drive.google.com/file/d/1tulUW33oBDhrxn5YuC2xW-vUWIhv1Y6W/view?usp=sharing",
   },
 ];
 export const Projects = [
   {
-    title: "Modern Nextjs Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/NextWebsite.png",
+    title: "Movix - Movies & TV Shows",
+    text: "All Movies & TV Shows are fetched through API by using Axios in React JS, More JS Libraries are used to optimize Production & better enhancement",
+    src: "/movixx.gif",
   },
   {
-    title: "Space Themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/SpaceWebsite.png",
+    title: "News Web Application",
+    text: "All News are sorted by categories and trending news are updated daily. All the News Data come from NewsAPI and displaying it using Bootstrap cards.",
+    src: "/newsmonkey.gif",
   },
   {
-    title: "Modern Nextjs Portfolio",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/WebPortfolio.png",
+    title: "CRUD - MERN Stack ",
+    text: "User Data are taken and store it in database display it to the users. POSTMAN, Mongoose, MongoDB Clusters, React JS, Express JS, Node.js etc. are used.",
+    src: "/CRUDGIF.gif",
   },
   {
-    title: "Matrix themed Website",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    src: "/Matrix.png",
+    title: "TextUtils - Operation on texts",
+    text: "Live text operations on texts without reloading the page. React JS & Bootstrap are used. Class Based & Function Based both are on Developed",
+    src: "/textutils.gif",
   },
 ];
 
